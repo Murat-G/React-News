@@ -1,0 +1,24 @@
+.container-headers {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: red;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.linkElement-headers{
+    text-decoration: "none";
+    color:"white";
+}
+.containerIcons-headers{
+    display: flex;
+    flex-direction: row;
+}
+
+.elementIcons-headers{
+    padding-right: 15px;
+}
