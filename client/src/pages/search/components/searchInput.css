@@ -1,0 +1,10 @@
+.searchMain-input {
+    background-color:"purple";
+    width: "500px"; 
+    height: "40px";
+}
+.searchElement-input {
+    background-color:"red"; 
+    width: "400px"; 
+    height: "40px"
+}

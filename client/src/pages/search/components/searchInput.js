@@ -1,11 +1,11 @@
 import React from 'react';
-import'./searchInput.css';
+import'./SearchInput.css';
 
 
 function searchInput() {
     return (
-        <div style={{backgroundColor:"purple", width: "400px", height: "40px"}}>
-            <input  style={{ backgroundColor:"red", width: "400px", height: "40px"}}/>
+        <div className="searchMain-input">
+            <input className="searchElement-input" />
         </div>
     )
 }
