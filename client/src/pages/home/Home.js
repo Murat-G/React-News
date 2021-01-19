@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { FourImage } from './components/FourImage'
 
 function Home() {
     return (
         <div className= "container-home">
-            <h1> Hello Home Page</h1>
+            <FourImage />
+            {/* <h1> Hello Home Page</h1> */}
         </div>
     )
 }

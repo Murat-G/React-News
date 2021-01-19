@@ -18,7 +18,7 @@ function Headers() {
                 <Link to="/kategori/sigorta" style={{ textDecoration:"none", color:"white",paddingRight: "10px"}}> SİGORTA </Link>
             </div>
             <div className="containerIcons-headers">
-               <div className="elementIcons-headers"> <Link to="/arama"><FontAwesomeIcon icon={faSearch} color="white" size="2x"/> </Link> </div>
+               <div className="elementIcons-headers"> <Link to="/search"><FontAwesomeIcon icon={faSearch} color="white" size="2x"/> </Link> </div>
                <div className="elementIcons-headers"> <FontAwesomeIcon icon={faPlus} color="white" size="2x"/> </div>
                <div className="elementIcons-headers"> <FontAwesomeIcon icon={faQuestionCircle} color="white" size="2x"/> 
                <span style={{color:"white"}}>Plus</span> </div>
