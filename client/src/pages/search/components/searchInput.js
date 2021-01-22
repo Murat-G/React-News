@@ -1,13 +1,11 @@
 import React from 'react';
-import'./SearchInput.css';
+import './SearchInput.css';
 
 
-function searchInput() {
+function SearchInput() {
     return (
-        <div className="searchMain-input">
-            <input className="searchElement-input" />
-        </div>
+        <input className="searchElement-input" />
     )
 }
 
-export default searchInput
+export default SearchInput
