@@ -8,6 +8,7 @@
     background-color: red;
     box-sizing: border-box;
     padding: 10px;
+    vertical-align: center;
 }
 
 .linkElement-headers{
@@ -17,8 +18,12 @@
 .containerIcons-headers{
     display: flex;
     flex-direction: row;
+    vertical-align: center;
 }
 
 .elementIcons-headers{
     padding-right: 15px;
+}
+.elementIcons-img {
+    padding-left: 10px;
 }

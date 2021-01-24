@@ -1,8 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch,faPlus,faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
+import { faSearch,faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import './Headers.css'
+import PlusSozcu from "../../assets/plus_white.png"
 function Headers() {
     return (
         <div className="container-headers">
@@ -19,9 +20,13 @@ function Headers() {
             </div>
             <div className="containerIcons-headers">
                <div className="elementIcons-headers"> <Link to="/search"><FontAwesomeIcon icon={faSearch} color="white" size="2x"/> </Link> </div>
-               <div className="elementIcons-headers"> <FontAwesomeIcon icon={faPlus} color="white" size="2x"/> </div>
-               <div className="elementIcons-headers"> <FontAwesomeIcon icon={faQuestionCircle} color="white" size="2x"/> 
-               <span style={{color:"white"}}>Plus</span> </div>
+               <div className="elementIcons-headers"> <FontAwesomeIcon icon={faQuestionCircle} color="white" size="2x"/> </div>
+               <span className=".elementIcons-img"> 
+                    <img src= {PlusSozcu}
+                        alt="sözcüplus" 
+                        width="85px"
+                    /> 
+               </span> 
             </div>
         </div>
     )
