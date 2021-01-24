@@ -1,10 +1,11 @@
 import React from 'react';
-import { FourImage } from './components/FourImage'
+import { FourImage } from './components/FourImage';
 
-function Home() {
+function Home() {  
+
     return (
         <div className= "container-home">
-            <FourImage />
+            <FourImage />    
         </div>
     )
 }

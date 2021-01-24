@@ -11,31 +11,30 @@ const news_gundem = [
     
     {
         id: 1,
-        author: 'Benjamin Pirus',
-        title: 'Coinbase customers can now dodge a bank',
+        author: 'Habertürk',
+        title: "KORSAN BASKINI! Son dakika! Türk gemisi Nijerya'da...",
         description:
-            'New update from Coinbase quickens the transmutation of crypto into fiat. Coinbase has unveiled a faster way for its customers to move digital currencies out of crypto and into their bank accounts.',
+            'Son dakika haberine göre, Batı Afrika ülkesi Gine açıklarında M/V Mozart isimli bir Türk gemisi, silahlı korsanlar tarafından rehin alındı. İlk belirlemelere göre, mürettebattan 1 kişi öldürüldü, 15 kişi kaçırıldı.Türk gemisine korsan baskını: 1 ölü! Nijery…',
         imageUrl:
-            'https://static.coindesk.com/wp-content/uploads/2020/10/GettyImages-alex-wong-1-1024x628.jpg',
+            'https://im.haberturk.com/2021/01/23/ver1611483304/2948333_810x458.jpg',
     },
     {
         id: 2,
-        author: 'Malwarebytes Labs',
-        title: 'VideoBytes: Ransomware gets wasted!',
+        author: 'Sabah',
+        title: 'Koronavirüsü atlatanlar tek tek incelendi! Bu etkiler...',
         description:
-            "On today's VideoBytes, we look at how ransomware is on the rise, attacking corporations with malware that not only encrypts files, but also steals it.",
+            "Kişilerin, hastalığı atlattıktan sonra da solunum yetmezliğinin yanı sıra eklem ağrısı, halsizlik, yorgunluk, uyku bozuklukları, dalgınlık ve unutkanlık gibi nörolojik rahatsızlıklarının devam ettiği ortaya çıktı. Dr. Yaşar Bildirici, koronavirüs hastalığını",
         imageUrl:
-            'https://blog.malwarebytes.com/wp-content/uploads/2020/09/shutterstock_640824457-600x410.jpg',
+            'https://iasbh.tmgrup.com.tr/f64c4f/960/505/0/0/1138/600?u=https://isbh.tmgrup.com.tr/sbh/2021/01/24/son-dakika-koronavirusu-atlatanlar-tek-tek-incelendi-bu-etkiler-kaliyor-1611471856653.jpg',
     },
     {
         id: 3,
-        author: 'Daniel Sparks',
-        title: 'Why Tesla Stock Fell Sharply Friday Morning - Motley Fool',
+        author: 'Ntv',
+        title: 'Restoran ve kafelerin kademeli açılmasında 2 bin hedefi',
         description:
-            'Shares are down despite Tesla reporting record third-quarter deliveries. Shares of electric-car maker Tesla(NASDAQ:TSLA) fell Friday morning, declining 5% a few minutes into market open.',
-        imageUrl: 'https://g.foolcdn.com/editorial/images/593799/stock-down.jpg',
+            'Cumhurbaşkanı Erdoğan, kafe ve restoranların ‘Batıyoruz’ isyanının kabine toplantısında ele alınacağını açıklamıştı. Bilim Kurulu üyeleri ve uzmanlar, restoranların da açılabileceği kademeli normalleşmenin şartlarını yorumladı.",',
+        imageUrl: 'https://cdn1.ntv.com.tr/gorsel/yfkUW7kPvUab0Sxbh7D2Vw.jpg?width=1080&mode=crop&scale=both',
     },
-   
 ];
 
 function NewsGündem() {

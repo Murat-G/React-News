@@ -15,7 +15,9 @@ function Search() {
         <div className="MainContainer-search">
             <div className="containerSearch">
                     <SearchInput />
-                    <div className="contentSearch-icon" onClick={GoogleSearch}> <FontAwesomeIcon icon={faSearch} color="white" size="sm" /> </div> 
+                    <div className="contentSearch-icon" onClick={GoogleSearch}> 
+                        <FontAwesomeIcon icon={faSearch} color="white"/>
+                     </div> 
             </div>   
         </div>    
     )
