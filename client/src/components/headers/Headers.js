@@ -8,7 +8,7 @@ function Headers() {
     return (
         <div className="container-headers">
             <div>   
-                <h2 style={{color:"white"}}> Gözcü </h2>
+                 <Link to="/" style={{ textDecoration:"none", color:"white",paddingRight: "10px"}}> <h2> Gözcü </h2> </Link>
             </div>
             <div> 
                 <Link to="/kategori/gündem" style={{ textDecoration:"none", color:"white",paddingRight: "10px"}}>GÜNDEM</Link>

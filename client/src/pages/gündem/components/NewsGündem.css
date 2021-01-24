@@ -1,0 +1,34 @@
+body {
+    background-color: #bdbdbd;
+}
+.container-gundem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin : 10px;
+    
+}
+
+.cardContent-Gundem {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 10rem;
+    align-items: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.cardImage-Gundem {   
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+}
+.cardText-GundemText {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+}
+      

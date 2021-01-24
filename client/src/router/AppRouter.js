@@ -13,7 +13,7 @@ function AppRouter() {
             <Router>
                 <Headers />
                 <Switch>
-                    <Route exact path="/gündem" component={Gündem} />
+                    <Route exact path="/kategori/gündem" component={Gündem} />
                     <Route exact path="/search"  component={Search} />
                     <Route path="/" component={Home}/>
                 </Switch>
