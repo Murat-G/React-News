@@ -5,7 +5,6 @@ function Home() {
     return (
         <div className= "container-home">
             <FourImage />
-            {/* <h1> Hello Home Page</h1> */}
         </div>
     )
 }

@@ -44,10 +44,9 @@ function FourImage() {
         <div className = "container-FourImage">
             {news_data.map(item => {
                 return (
-                    <div className = "cardContent-FourImage">
-
-                    <img src = {item.imageUrl}  alt='ee' className = "cardImage-FourImage"/>
-                    <p className = "cardText-FourText">{item.title}</p>
+                    <div className = "cardContent-FourImage" id={item.id}>
+                        <img src = {item.imageUrl}  alt='ee' className = "cardImage-FourImage"/>
+                        <p className = "cardText-FourText">{item.title}</p>
                     </div>
                 )
             })}

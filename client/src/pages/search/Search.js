@@ -5,13 +5,19 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import "./Search.css"
 
 function Search() {
+
+    const GoogleSearch = () => {
+        console.log("hello google")
+                
+    }
+
     return (
         <div className="MainContainer-search">
             <div className="containerSearch">
                     <SearchInput />
-                    <div className="contentSearch-icon"> <FontAwesomeIcon icon={faSearch} color="white" size="1.5x"/> </div> 
-            </div>
-        </div>
+                    <div className="contentSearch-icon" onClick={GoogleSearch}> <FontAwesomeIcon icon={faSearch} color="white" size="sm" /> </div> 
+            </div>   
+        </div>    
     )
 }
 
