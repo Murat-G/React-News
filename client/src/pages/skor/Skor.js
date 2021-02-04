@@ -1,5 +1,5 @@
-import React from 'react'
-import NewsSkor  from './components/NewsSkor.js'
+import React from 'react';
+import NewsSkor  from './components/NewsSkor.js';
 
 function Skor() {
     return (
@@ -9,4 +9,4 @@ function Skor() {
     )
 }
 
-export default Skor
+export default Skor;

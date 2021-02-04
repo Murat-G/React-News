@@ -1,6 +1,7 @@
-import React from 'react'
-import './NewsSkor.css'
-const news_gundem = [
+import React from 'react';
+import './NewsSkor.css';
+
+const news_skor = [
     {
         id: 0,
         author: 'hurriyet.com.tr',
@@ -37,7 +38,7 @@ const news_gundem = [
 function NewsGündem() {
     return (
         <div className="container-Skor">
-            {news_gundem.map(item => {
+            {news_skor.map(item => {
                 return (
                     <div className = "cardContent-Skor" id={item.id}>
                         <img src = {item.imageUrl}  alt='ee' className = "cardImage-Skor"/>

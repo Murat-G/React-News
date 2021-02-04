@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Home from '../pages/home/Home'
-import Search from '../pages/search/Search'
-import Gündem from '../pages/gündem/Gündem'
-import Skor from '../pages/skor/Skor'
-import Headers from '../components/headers/Headers'
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from '../pages/home/Home';
+import Search from '../pages/search/Search';
+import Gündem from '../pages/gündem/Gündem';
+import Skor from '../pages/skor/Skor';
+import Headers from '../components/headers/Headers';
+import Dunya from '../pages/dünya/Dunya';
 
 
 function AppRouter() {
@@ -14,6 +15,7 @@ function AppRouter() {
             <Router>
                 <Headers />
                 <Switch>
+                    <Route exact path="/kategori/dunya"  component={Dunya}/> 
                     <Route exact path="/kategori/skor"  component={Skor}/> 
                     <Route exact path="/kategori/gündem" component={Gündem} />
                     <Route exact path="/search"  component={Search} />
@@ -23,4 +25,4 @@ function AppRouter() {
     )
 }
 
-export default AppRouter
+export default AppRouter;

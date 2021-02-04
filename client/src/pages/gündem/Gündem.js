@@ -1,5 +1,5 @@
-import React from 'react'
-import NewsGündem  from './components/NewsGündem'
+import React from 'react';
+import NewsGündem  from './components/NewsGündem';
 
 function Gündem() {
     return (
@@ -9,4 +9,4 @@ function Gündem() {
     )
 }
 
-export default Gündem
+export default Gündem;

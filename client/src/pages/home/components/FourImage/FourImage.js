@@ -1,5 +1,7 @@
-import React from 'react'
-import './FourImage.css'
+import React from 'react';
+import './FourImage.css';
+
+
 function FourImage() {
     const news_data = [
         {
