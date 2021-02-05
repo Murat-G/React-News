@@ -31,3 +31,13 @@
     font-weight: 600;
     font-family: 'Helvetica Neue';
 }
+.linkElements {
+    text-decoration:"none";
+    color:"white";
+    padding-right: "10px";
+    font-weight:"bold";
+}
+
+.linkElements:hover {
+    background-color: #C23129;
+}

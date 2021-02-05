@@ -15,7 +15,7 @@ function Headers() {
                  </Link>
             </div>
             <div> 
-                <Link to="/kategori/gündem" style={{ textDecoration:"none", color:"white",paddingRight: "10px", fontWeight:"bold"}}>GÜNDEM</Link>
+                <Link to="/kategori/gündem" style={{ textDecoration:"none", color:"white",paddingRight: "10px", fontWeight:"bold"}}> GÜNDEM </Link>
                 <Link to="/kategori/skor" style={{ textDecoration:"none", color:"white",paddingRight: "10px", fontWeight:"bold"}}> SKOR </Link>
                 <Link to="/kategori/hayat" style={{ textDecoration:"none", color:"white",paddingRight: "10px", fontWeight:"bold"}}> HAYAT </Link>
                 <Link to="/kategori/dunya" style={{ textDecoration:"none", color:"white",paddingRight: "10px", fontWeight:"bold"}}> DÜNYA </Link>

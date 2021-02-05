@@ -5,8 +5,9 @@ import Home from '../pages/home/Home';
 import Search from '../pages/search/Search';
 import Gündem from '../pages/gündem/Gündem';
 import Skor from '../pages/skor/Skor';
-import Headers from '../components/headers/Headers';
 import Dunya from '../pages/dünya/Dunya';
+import Hayat from '../pages/hayat/Hayat';
+import Headers from '../components/headers/Headers';
 
 
 function AppRouter() {
@@ -15,6 +16,7 @@ function AppRouter() {
             <Router>
                 <Headers />
                 <Switch>
+                    <Route exact path="/kategori/hayat"  component={Hayat}/> 
                     <Route exact path="/kategori/dunya"  component={Dunya}/> 
                     <Route exact path="/kategori/skor"  component={Skor}/> 
                     <Route exact path="/kategori/gündem" component={Gündem} />
