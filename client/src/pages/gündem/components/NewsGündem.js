@@ -42,7 +42,7 @@ function NewsGündem() {
         <div className="container-gundem">
             {news_gundem.map(item => {
                 return (
-                    <div className = "cardContent-Gundem" id={item.id}>
+                    <div className = "cardContent-Gundem" key={item.id}>
                         <img src = {item.imageUrl}  alt='ee' className = "cardImage-Gundem"/>
                         <p className = "cardText-GundemText">{item.title}</p>
                     </div>

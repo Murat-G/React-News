@@ -1,43 +1,43 @@
 .container-headers {
-    height: 4em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color:#FF4136;
-    box-sizing: border-box;
-    padding: 10px;
-    vertical-align: center;
+  height: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ff4136;
+  box-sizing: border-box;
+  padding: 10px;
+  vertical-align: center;
 }
 
-.linkElement-headers{
-    text-decoration: "none";
-    color:"white";
+.linkElement-headers {
+  text-decoration: "none";
+  color: "white";
 }
-.containerIcons-headers{
-    display: flex;
-    flex-direction: row;
+.containerIcons-headers {
+  display: flex;
+  flex-direction: row;
 }
 
-.elementIcons-headers{
-    padding-right: 15px;
+.elementIcons-headers {
+  padding-right: 15px;
 }
 .elementIcons-img {
-    padding-left: 10px;
+  padding-left: 10px;
 }
-.containers-header-title{
-    font-size: 1.5em;
-    font-weight: 600;
-    font-family: 'Helvetica Neue';
+.containers-header-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
 }
 .linkElements {
-    text-decoration:"none";
-    color:"white";
-    padding-right: "10px";
-    font-weight:"bold";
+  text-decoration: "none";
+  color: "white";
+  padding-right: "10px";
+  font-weight: "bold";
 }
 
 .linkElements:hover {
-    background-color: #C23129;
+  background-color: #c23129;
 }

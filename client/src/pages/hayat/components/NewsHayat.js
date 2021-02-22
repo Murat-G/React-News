@@ -46,7 +46,7 @@ function NewsHayat() {
         <div className="container-hayat">
             {news_hayat.map(item => {
                 return (
-                    <div className = "cardContent-Hayat" id={item.id}>
+                    <div className = "cardContent-Hayat" key={item.id}>
                         <img src = {item.imageUrl}  alt='ee' className = "cardImage-Hayat"/>
                         <p className = "cardText-HayatText">{item.title}</p>
                     </div>

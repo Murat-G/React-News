@@ -38,7 +38,7 @@ function NewsDunya() {
 
             {news_dunya.map(item => {
                 return (
-                    <div className = "cardContent-Dunya" id={item.id}>
+                    <div className = "cardContent-Dunya" key={item.id}>
                         <img src = {item.imageUrl}  alt='ee' className = "cardImage-Dunya"/>
                         <p className = "cardText-DunyaText">{item.title}</p>
                     </div>
