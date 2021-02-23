@@ -41,3 +41,88 @@
 .linkElements:hover {
   background-color: #c23129;
 }
+
+/* Modal */
+
+.container-plus-modal {
+  display: flex;
+  flex-direction: column;
+}
+.container-plus-modal-top{
+  display: flex;
+  flex-direction: column;
+}
+.container-plus-modal span {
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    padding: .4rem 0;
+}
+
+.container-plus-modal-login {
+  background-color: #28a745;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.container-plus-modal-signup{
+  background-color: #007bff;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: .5em;
+}
+
+
+/* ??????????????? */
+
+.container-question-modal-top {
+  display: flex;
+  flex-direction: column
+}
+.container-question-modal-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1.5em;
+}
+.container-question-modal-top span {
+  cursor: pointer;
+}
+
+.container-plus-modal-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5em;
+}
+.container-plus-modal-bottom p {
+  white-space: nowrap;
+  color: #333;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: left;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-left: .5em;
+}
+
+.container-plus-modal-bottom p:hover {
+  background-color: #E5E5E5;
+  box-sizing: border-box;
+}
+
+.container-plus-modal-footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: #6e6e6e;
+}
